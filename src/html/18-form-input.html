@@ -62,7 +62,7 @@
           <label for="bootcampCss">CSS</label>
         </div>
         <!-- radio : 라디오 서식 -->
-        <!-- 암묵적인 레이블링 : 스크림리더 환경에서의 이슈때문에 권장하지 않은 -->
+        <!-- 암묵적인 레이블링 : 스크린리더 환경에서의 이슈때문에 권장하지 않은 -->
         <div>
           <label>
             <input type="radio" checked name="classRoom" value="classRoom1" />
@@ -75,9 +75,12 @@
             회고 2팀
           </label>
         </div>
-        <button type="submit">전송</button>
-        <button type="reset">초기화</button>
-        <button type="button">버튼</button>
+        <!-- 버튼 (전속, 초기화, 일반버튼) -->
+        <div>
+          <input type="submit" value="전송" />
+          <input type="reset" value="초기화" />
+          <input type="button" value="버튼" />
+        </div>
       </fieldset>
     </form>
   </body>
